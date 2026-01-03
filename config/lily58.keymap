@@ -44,7 +44,7 @@
 &kp F1                  &kp F2              &kp F3              &kp F4            &kp F5              &kp F6                                          &kp F7     &kp F8     &kp F9           &kp F10   &kp F11   &kp F12
 &kp LS(LA(UP_ARROW))    &kp LA(UP_ARROW)    &kp LS(LEFT_ARROW)  &kp LS(UP_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)                             &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
 &kp LS(LA(DOWN_ARROW))  &kp LA(DOWN_ARROW)  &kp LEFT_ARROW      &kp UP_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &kp PRINTSCREEN    &trans  &trans     &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                                                                &trans            &trans              &trans               &trans             &trans  &kp DEL    &trans     &trans
+                                                                &kp LEFT_WIN      &trans              &trans               &trans             &trans  &kp DEL    &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
